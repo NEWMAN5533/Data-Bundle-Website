@@ -35,22 +35,24 @@ nav{
 }
 
 .logo img{
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
-  margin-left: 2rem;
+  margin-left: 0.8rem;
 }
 
 .logo h1{
-  color: white;
+  color: rgb(99, 245, 14);
   font-weight: bold;
   margin-left: 1rem;
+
 }
+
 
 .right-items{
   align-items: center;
   justify-content: space-between;
-  margin-right: 2rem;
+  margin-right: 0.8rem;
 }
 
 .right-items img{
@@ -76,13 +78,15 @@ nav{
 
 .hero-inside{
   width: 90%;
-  height: 6rem;
+  height: 4rem;
   display: flex;
   padding: 1rem;
   max-width: 70rem;
   border-radius: 3rem;
   text-align: center;
   flex-direction: column;
+ justify-content: center;
+  align-items: center;
   background: #ececec;
   outline: none;
   box-shadow: inset  12px 12px 17px #c7c4c4, inset -12px -12px 17px #fff;
@@ -90,10 +94,9 @@ nav{
 }
 
 .hero-inside h1{
-  font-size: 2rem;
+  font-size: 1.8rem;
   align-items: center;
-  color: rgb(56, 110, 31);
-  margin-top: 0;
+  color: rgb(26, 155, 14);;
   text-align: center;
 
 }
