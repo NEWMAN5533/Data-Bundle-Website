@@ -135,8 +135,8 @@ nav{
   border-radius: 2rem;
   justify-content: space-around;
   background-color: rgb(250, 213, 4);
-  margin-top: 0;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   box-shadow:   12px 12px 17px #ffffff,  -12px -12px 17px #ffffff;
 }
 .mtn{
@@ -152,8 +152,8 @@ nav{
   display: flex;
   border-radius: 2rem;
   background: blue;
-  margin-top: 0;
-  margin-bottom: 3rem;
+  margin-top: 1;
+  margin-bottom: 1rem;
    box-shadow:   12px 12px 17px #ffffff, -12px -12px 17px #ffffff;
 
 }
@@ -165,7 +165,7 @@ nav{
   height: 14rem;
   display: flex;
   border-radius: 2rem;
-  margin-bottom: 3rem;
+  margin-top: 1rem;
   justify-content: center;
   margin-bottom: 1rem;
   background: rgb(255, 0, 0);
