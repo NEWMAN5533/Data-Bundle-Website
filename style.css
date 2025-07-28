@@ -113,7 +113,7 @@ nav{
 .container-price{
   width: 100%;
   height: auto;
-  background: #bdb8b8;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -134,10 +134,10 @@ nav{
   display: flex;
   border-radius: 2rem;
   justify-content: space-around;
-  background-color: gold;
+  background-color: rgb(250, 213, 4);
   margin-top: 0;
   margin-bottom: 3rem;
-  box-shadow:   12px 12px 17px #c7c7c1,  -12px -12px 17px #c5c5c3;
+  box-shadow:   12px 12px 17px #ffffff,  -12px -12px 17px #ffffff;
 }
 .mtn{
   margin-top: 16rem;
@@ -154,7 +154,7 @@ nav{
   background: blue;
   margin-top: 0;
   margin-bottom: 3rem;
-   box-shadow:   12px 12px 17px #b1b1b4, -12px -12px 17px #b3b2b8;
+   box-shadow:   12px 12px 17px #ffffff, -12px -12px 17px #ffffff;
 
 }
 
@@ -168,7 +168,7 @@ nav{
   margin-bottom: 3rem;
   justify-content: space-around;
   background: rgb(255, 0, 0);
-   box-shadow:   12px 12px 17px #a7a2a2,  -12px -12px 17px #afacac;
+   box-shadow:   12px 12px 17px #ffffff,  -12px -12px 17px #ffffff;
 }
 
 /*---inside the containers---*/
