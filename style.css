@@ -38,7 +38,7 @@ nav{
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  margin-left: 0.8rem;
+  margin-left: 0%;
 }
 
 .logo h1{
@@ -52,7 +52,7 @@ nav{
 .right-items{
   align-items: center;
   justify-content: space-between;
-  margin-right: 0.8rem;
+  margin-right: 0%;
 }
 
 .right-items img{
@@ -94,7 +94,7 @@ nav{
 }
 
 .hero-inside h1{
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   align-items: center;
   color: rgb(26, 155, 14);;
   text-align: center;
