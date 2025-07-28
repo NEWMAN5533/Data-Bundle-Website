@@ -78,12 +78,10 @@ nav{
 
 .hero-inside{
   width: 90%;
-  height: 4rem;
+  height: 5.2rem;
   display: flex;
   padding: 1rem;
-  max-width: 70rem;
   border-radius: 3rem;
-  text-align: center;
   flex-direction: column;
  justify-content: center;
   align-items: center;
@@ -119,9 +117,9 @@ nav{
 }
 /*---networks container--*/
 .mtn{
-  width: 28rem;
+  width: 27.5rem;
   min-width: 260px;
-  height: 14rem;
+  height: 13.5rem;
   display: flex;
   border-radius: 2rem;
   justify-content: space-around;
