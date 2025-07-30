@@ -1,8 +1,8 @@
 const more = document.querySelector('.more-icon');
-const moreProducts = document.querySelector('#more');
+const pageWhitcher = document.querySelector('#more');
 
 // when click more icon to toggle other products sheets //
-moreProducts.onclick = ()=>{
+pageWhitcher.onclick = ()=>{
   more.classList.toggle('active');
 }
 
