@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EcoData </title>
   <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
+
 </head>
 <body>
   <nav>
@@ -24,6 +30,47 @@
     </div>
   </nav>
   <!-------Ends of navbar---------->
+
+  
+<div class="template-container" id="template-container">
+  <div class="inner-container">
+   
+
+    <div class="cont-h2">
+      <h2>Please Submit Details:</h2>
+    </div>
+
+    
+
+      <label>My Number:</label>
+      <input class="number" type="text" id="phone" placeholder="Enter Your phone number" /><br><br>
+
+
+<div class="label-container">
+      <label>Bundle:</label>
+      <input type="text" id="bundle" readonly /><br><br>
+
+
+      <label>Price:</label>
+      <input type="text" id="price" readonly /><br><br>
+    </div>
+
+
+
+
+    <button class="btn-submit" type="button" onclick="submitRequest()">I Have Paid</button>
+
+
+  </div>
+  <p id="status"></p>
+</div>
+
+ 
+
+
+
+
+
 
   <div class="container-hero">
     <div class="hero-inside">
@@ -63,7 +110,8 @@
       <div class="bottom">
         <h2>1GB</h2>
         <p>GH&#8373;: 6</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+       <button class="buy-btn" data-bundle="MTN 1GB" data-price="6">Buy Now</button>
+
       </div>
     </div>
 
@@ -76,7 +124,8 @@
       <div class="bottom">
         <h2>2GB</h2>
         <p>GH&#8373;: 12</p>
-       <a href="submit.html"><button type="button">Buy Now</button></a>
+      <button class="buy-btn" data-bundle="MTN 2GB" data-price="12">Buy Now</button>
+
       </div>
     </div>
 
@@ -89,7 +138,8 @@
       <div class="bottom">
         <h2>3GB</h2>
         <p>GH&#8373;: 18</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+       <button class="buy-btn" data-bundle="MTN 3GB" data-price="18">Buy Now</button>
+
       </div>
     </div>
 
@@ -102,7 +152,8 @@
       <div class="bottom">
         <h2>4GB</h2>
         <p>GH&#8373;: 23</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+      <button class="buy-btn" data-bundle="MTN 4GB" data-price="23">Buy Now</button>
+
       </div>
     </div>
 
@@ -115,7 +166,8 @@
       <div class="bottom">
         <h2>5GB</h2>
         <p>GH&#8373;: 27</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+       <button class="buy-btn" data-bundle="MTN 5GB" data-price="27">Buy Now</button>
+
       </div>
     </div>
 
@@ -128,7 +180,8 @@
       <div class="bottom">
         <h2>6GB</h2>
         <p>GH&#8373;: 34</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+       <button class="buy-btn" data-bundle="MTN 6GB" data-price="34">Buy Now</button>
+
       </div>
     </div>
     
@@ -139,7 +192,8 @@
       <div class="bottom">
         <h2>7GB</h2>
         <p>GH&#8373;: 38</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+       <button class="buy-btn" data-bundle="MTN 7GB" data-price="38">Buy Now</button>
+
       </div>
     </div>
     
@@ -152,7 +206,8 @@
       <div class="bottom">
         <h2>8GB</h2>
         <p>GH&#8373;: 40</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="MTN 8GB" data-price="40">Buy Now</button>
+
       </div>
     </div>
     
@@ -165,7 +220,8 @@
       <div class="bottom">
         <h2>10GB</h2>
         <p>GH&#8373;: 48</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="MTN 10GB" data-price="48">Buy Now</button>
+
       </div>
     </div>
     
@@ -178,7 +234,8 @@
       <div class="bottom">
         <h2>15GB</h2>
         <p>GH&#8373;: 69</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="MTN 15GB" data-price="69">Buy Now</button>
+
       </div>
     </div>
     
@@ -191,7 +248,8 @@
       <div class="bottom">
         <h2>20GB</h2>
         <p>GH&#8373;: 92</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+      <button class="buy-btn" data-bundle="MTN 20GB" data-price="92">Buy Now</button>
+
       </div>
     </div>
 
@@ -203,7 +261,8 @@
       <div class="bottom">
         <h2>25GB</h2>
         <p>GH&#8373;: 110</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+       <button class="buy-btn" data-bundle="MTN 25GB" data-price="110">Buy Now</button>
+
       </div>
     </div>
     
@@ -234,8 +293,9 @@
       </div>
       <div class="bottom">
         <h2>1GB</h2>
-        <p>GH&#8373;: 5.5</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+        <p>GH&#8373;: 6</p>
+       <button class="buy-btn" data-bundle="TIGO 1GB" data-price="6">Buy Now</button>
+
       </div>
     </div>
 
@@ -248,7 +308,7 @@
       <div class="bottom">
         <h2>2GB</h2>
         <p>GH&#8373;: 12</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="TIGO 2GB" data-price="12">Buy Now</button>
       </div>
     </div>
 
@@ -262,7 +322,7 @@
       <div class="bottom">
         <h2>3GB</h2>
         <p>GH&#8373;: 17</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="TIGO 3GB" data-price="17">Buy Now</button>
       </div>
     </div>
 
@@ -276,7 +336,7 @@
       <div class="bottom">
         <h2>4GB</h2>
         <p>GH&#8373;: 23</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+       <button class="buy-btn" data-bundle="TIGO 4GB" data-price="23">Buy Now</button>
       </div>
     </div>
 
@@ -290,7 +350,7 @@
       <div class="bottom">
         <h2>5GB</h2>
         <p>GH&#8373;: 26</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="TIGO 5GB" data-price="26">Buy Now</button>
       </div>
     </div>
 
@@ -303,7 +363,7 @@
       <div class="bottom">
         <h2>6GB</h2>
         <p>GH&#8373;: 30</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="TIGO 6GB" data-price="30">Buy Now</button>
       </div>
     </div>
 
@@ -317,7 +377,7 @@
       <div class="bottom">
         <h2>7GB</h2>
         <p>GH&#8373;: 35</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+      <button class="buy-btn" data-bundle="TIGO 7GB" data-price="35">Buy Now</button>
       </div>
     </div>
 
@@ -330,7 +390,7 @@
       <div class="bottom">
         <h2>8GB</h2>
         <p>GH&#8373;: 40</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="TIGO 8GB" data-price="40">Buy Now</button>
       </div>
     </div>
 
@@ -342,7 +402,7 @@
       <div class="bottom">
         <h2>9GB</h2>
         <p>GH&#8373;: 44</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="TIGO 9GB" data-price="44">Buy Now</button>
       </div>
     </div>
 
@@ -355,7 +415,7 @@
       <div class="bottom">
         <h2>10GB</h2>
         <p>GH&#8373;: 47</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="TIGO 10GB" data-price="47">Buy Now</button>
       </div>
     </div>
 
@@ -368,7 +428,7 @@
       <div class="bottom">
         <h2>12GB</h2>
         <p>GH&#8373;: 56</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="TIGO 12GB" data-price="56">Buy Now</button>
       </div>
     </div>
 
@@ -393,7 +453,7 @@
       <div class="bottom">
         <h2>5GB</h2>
         <p>GH&#8373;: 27</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+         <button class="buy-btn" data-bundle="TELECEL 5GB" data-price="27">Buy Now</button>
       </div>
     </div>
  
@@ -404,7 +464,7 @@
       <div class="bottom">
         <h2>10GB</h2>
         <p>GH&#8373;: 47</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+         <button class="buy-btn" data-bundle="TELECEL 10GB" data-price="47">Buy Now</button>
       </div>
     </div>
  
@@ -418,7 +478,7 @@
       <div class="bottom">
         <h2>15GB</h2>
         <p>GH&#8373;: 69</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+         <button class="buy-btn" data-bundle="TELECEL 15GB" data-price="69">Buy Now</button>
       </div>
     </div>
  
@@ -432,7 +492,7 @@
       <div class="bottom">
         <h2>20GB</h2>
         <p>GH&#8373;: 93</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+         <button class="buy-btn" data-bundle="TELECEL 20GB" data-price="93">Buy Now</button>
       </div>
     </div>
  
@@ -445,7 +505,7 @@
       <div class="bottom">
         <h2>30GB</h2>
         <p>GH&#8373;: 134</p>
-          <a href="submit.html"><button type="button">Buy Now</button></a>
+          <button class="buy-btn" data-bundle="TELECEL 30GB" data-price="134">Buy Now</button>
       </div>
     </div>
  
@@ -458,7 +518,7 @@
       <div class="bottom">
         <h2>40GB</h2>
         <p>GH&#8373;: 178</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+         <button class="buy-btn" data-bundle="TELECEL 40GB" data-price="178">Buy Now</button>
       </div>
     </div>
  
@@ -472,7 +532,7 @@
       <div class="bottom">
         <h2>50GB</h2>
         <p>GH&#8373;: 220</p>
-         <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="TELECEL 50GB" data-price="220">Buy Now</button>
       </div>
     </div>
  
@@ -485,7 +545,7 @@
       <div class="bottom">
         <h2>100GB</h2>
         <p>GH&#8373;: 400</p>
-        <a href="submit.html"><button type="button">Buy Now</button></a>
+        <button class="buy-btn" data-bundle="TELECEL 5GB" data-price="27">Buy Now</button>
       </div>
     </div>
  
