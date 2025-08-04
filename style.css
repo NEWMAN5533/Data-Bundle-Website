@@ -618,9 +618,53 @@ input[readonly] {
   flex-direction: column;
   box-shadow: inset 12px 12px 17px #c7c4c4, inset -12px -12px 17px #fff;
 }
+.cont-h2 p {
+  font-size: 1.5rem;
+  color: red;
+  
+}
+.inner-container h3{
+  font-size: 1.2rem;
+  color: green;
+  margin-bottom: 0rem;
+}
+.in-note{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: none;
+  gap: 5px;
+  border: 1px solid #da3535;
+  border-radius: 1rem;
+  word-spacing: 0.8px;
+  padding: 4px;
+  color: black;
+
+}
+
+.in-note h4{
+  width: 8px;
+  height: 8px;
+  margin-bottom: 2px;
+  border-radius: 50px;
+  color:red;
+}
+.in-note p{
+  color: red;
+}
+
+
+.cont-h2 img {
+  width: 3.4rem;
+  height: 3.4rem;
+  margin-top: 0.5rem;;
+}
 
 .cont-h2 h2 {
   font-size: 2rem;
+
 }
 
 /* Label container */
@@ -672,6 +716,9 @@ input[readonly] {
   background-color: #ececec;
   color: black;
 }
+
+
+
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
