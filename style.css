@@ -462,7 +462,7 @@ footer {
 }
 
 section footer .bar{
-  margin-top: 5rem;
+  margin: 0;
   bottom: 0;
 }
 .about h3{
