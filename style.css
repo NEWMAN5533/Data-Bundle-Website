@@ -209,15 +209,14 @@ nav{
   min-width: 260px;
   height: 14rem;
   display: flex;
-  border-radius: 2rem;
+  border-radius: 0.2rem;
   justify-content: space-around;
   background-color: rgb(238, 204, 9);
-  margin-top: 1rem;
   margin-bottom: 1rem;
   box-shadow:   12px 12px 17px rgb(247, 247, 248),  -12px -12px 17px rgb(247, 247, 248);
 }
 .mtn{
-  margin-top: 13rem;
+  margin-top: 12rem;
 }
 
 .tigo{
@@ -226,7 +225,7 @@ nav{
   height: 14rem;
   justify-content: space-around;
   display: flex;
-  border-radius: 2rem;
+  border-radius: 0.2rem;
   background: rgb(6, 6, 235);
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -234,7 +233,7 @@ nav{
 
 }
 .tigo{
-  margin-top: 13rem;
+  margin-top: 1rem;
 }
 
 .telecel{
@@ -242,7 +241,7 @@ nav{
   min-width: 260px;
   height: 14rem;
   display: flex;
-  border-radius: 2rem;
+  border-radius: 0.2rem;
   margin-top: 1rem;
   justify-content: center;
   margin-bottom: 1rem;
@@ -251,13 +250,13 @@ nav{
 }
 
 .telecel{
-  margin-top: 13rem;
+  margin-top: 1rem;
 }
 
 /*---inside the containers---*/
 
 .net-image{
-  width: 21rem;
+  width: 23rem;
   height: 10rem;
   display: flex;
   margin-top: 2rem;
