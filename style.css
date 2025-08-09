@@ -450,6 +450,10 @@ transition: 0.2s;
 /* ABOUT & FOOTER */
 .about,
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 100vw;
   text-align: center;
   padding: 1rem;
