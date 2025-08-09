@@ -471,7 +471,7 @@ footer{
 .about h3{
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: rgb(179, 29, 49);
+  color: rgb(221, 16, 44);
 }
 .about h4{
   color:#10e65b;
@@ -522,17 +522,16 @@ footer a{
 }
 
 footer .copyright{
-  color: rgb(255, 3, 3);
-  font-size: 1.4rem;
-  margin-top: 1rem;
+  color:  rgb(221, 16, 44);
+  font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
 
 
 footer img{
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2.6rem;
+  height: 2.6rem;
   vertical-align: middle;
   margin-left: 0.6rem;
 }
