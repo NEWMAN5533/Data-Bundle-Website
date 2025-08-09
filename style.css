@@ -230,7 +230,7 @@ nav{
   background: transparent;
   border-radius: 50%;
   font-family: sans-serif;
-  border: 20px solid #332c80;
+  border: 20px solid rgb(15, 17, 24);
   position: absolute;
     box-shadow: inset 2px 2px 30px #cfcccc, inset -8px 30px #ece9e9;
   display: flex;
@@ -247,7 +247,7 @@ nav{
   margin-bottom: 10rem;
   border-radius: 50%;
   border: 20px solid  rgb(9, 216, 206);
-  border-top: 20px solid  #332c80 ;
+  border-top: 20px solid rgb(15, 17, 24) ;
   animation: spin 60s linear infinite;
 }
 
