@@ -457,10 +457,10 @@ footer {
   flex-direction: column;
   width: 100%;
   text-align: center;
-  padding: 1rem;
   margin: 0;
   color: white;
   background-color:  rgb(15, 17, 24) ;
+  bottom: 0;
 }
 
 .about h3{
@@ -518,7 +518,7 @@ footer a{
 footer .copyright{
   color:  rgb(221, 16, 44);
   font-size: 1.6rem;
-  margin-bottom: 1rem;
+  bottom: 0;
 }
 
 
