@@ -229,13 +229,11 @@ nav{
   display: flex;
   border-radius: 0.2rem;
   background: rgb(6, 6, 235);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   box-shadow:   12px 12px 17px rgb(247, 247, 248), -12px -12px 17px rgb(247, 247, 248);
 
 }
-.tigo{
-  margin-top: 1rem;
+.card-banner{
+  margin-top: 11rem;
 }
 
 .telecel{
@@ -246,13 +244,12 @@ nav{
   border-radius: 0.2rem;
   margin-top: 1rem;
   justify-content: center;
-  margin-bottom: 1rem;
   background: rgb(236, 6, 6);
    box-shadow:   12px 12px 17px rgb(247, 247, 248),  -12px -12px 17px rgb(247, 247, 248);
 }
 
-.telecel{
-  margin-top: 1rem;
+.card-banner{
+  margin-top: 11rem;
 }
 
 /*---inside the containers---*/
