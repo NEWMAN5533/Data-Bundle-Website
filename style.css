@@ -127,7 +127,7 @@ nav{
 
 .container-hero{
   width: 100%;
-  height: 7rem;
+  height: 6rem;
   background: #ececec;
   display: flex;
   padding: 2rem;
@@ -144,8 +144,8 @@ nav{
 }
 .darker{
   width: 100%;
-  height: 3.2rem;
-  background-color: rgb(9, 216, 206);
+  height: 2.2rem;
+  background-color: rgb(15, 17, 24);
   border-end-start-radius: 2rem;
   border-end-end-radius: 2rem;
   top: 8rem;
@@ -178,7 +178,7 @@ nav{
 .hero-inside h1{
   font-size: 1.4rem;
   align-items: center;
-  color: rgb(9, 216, 206);
+  color: rgb(15, 17, 24);
   text-align: center;
 
 }
