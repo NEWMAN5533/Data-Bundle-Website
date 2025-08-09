@@ -462,13 +462,6 @@ footer {
   color: white;
   background-color:  rgb(15, 17, 24) ;
 }
-.about{
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-
 
 .about h3{
   font-size: 2rem;
