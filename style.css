@@ -324,7 +324,7 @@ nav{
   border: 0.01rem solid   rgb(140, 141, 167);
   border-radius: 0.1rem;
   margin: 1rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 8px , white;
   transition: 0.5s;
 }
 .top {
@@ -349,13 +349,13 @@ nav{
 .bottom {
   height: auto;
   width: 8rem;
-  background: #faf9f9;
+  background: #fdfcfc;
   margin-top: 2rem;
   text-align: center;
   align-items: center;
   height: auto;
-  border: 0.1rem solid #ffffff;
-  box-shadow:  2px 2px 30px #e9e7e7, -8px -8px 30px #f7f4f4;
+  border: 0.3rem solid #ffffff;
+  box-shadow:  2px 2px 30px #f5f2f2, -8px -8px 30px #f5f2f2;
   padding: 0.4rem 0.3rem;
   border-radius: 0 0 2rem -2rem;
   border-block-end: 0.7rem solid  rgb(45, 182, 148);
