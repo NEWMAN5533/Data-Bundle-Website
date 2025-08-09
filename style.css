@@ -8,7 +8,7 @@
 }
 
 body{
-  background:  rgb(15, 17, 24);
+  background:  #ffffff;
   height: 100vh;
   margin: 0;
   overflow-x: auto;
@@ -453,7 +453,7 @@ footer {
   text-align: center;
   padding: 1rem;
   color: white;
-  background-color:  transparent;
+  background-color:  rgb(15, 17, 24) ;
 }
 .about{
   display: flex;
