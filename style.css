@@ -133,14 +133,14 @@ nav{
 .right-items{
   align-items: center;
   justify-content: space-between;
-  border: 0.1rem solid rgb(131, 138, 138);
+  border: 0.1rem solid rgb(219, 224, 224);
   transition: 1s;
   margin-bottom: 6rem;
 }
 
 .right-items img{
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2.8rem;
+  height: 2.8rem;
   transition: 1s;
 }
 .right-items img:hover{
@@ -478,6 +478,7 @@ footer {
   width: 100%;
   text-align: center;
   margin: 0;
+  padding: 1rem 2rem;
   color: white;
   background-color:  rgb(15, 17, 24) ;
   bottom: 0;
