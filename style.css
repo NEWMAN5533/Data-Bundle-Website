@@ -181,6 +181,7 @@ nav{
   height: 3rem;
   display: flex;
   padding: 1rem;
+  border: 2.8px solid white;
   border-radius: 0.2px;
   flex-direction: row;
   gap:0.6rem ;
@@ -188,7 +189,7 @@ nav{
   align-items: center;
   background: #f3f3f3;
   outline: none;
-  box-shadow:  10px 10px 20px #e7e5e5,  -10px -10px 20px  #e7e5e5;
+  box-shadow:  10px 10px 20px #e0dddd,  -10px -10px 20px  #e6e1e1;
 
 }
 
