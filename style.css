@@ -461,6 +461,10 @@ footer {
   bottom: 0;
 }
 
+section footer .bar{
+  margin-top: 5rem;
+  bottom: 0;
+}
 .about h3{
   font-size: 2rem;
   margin-bottom: 1rem;
