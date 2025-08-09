@@ -205,32 +205,32 @@ nav{
 }
 /*---networks container--*/
 .mtn{
-  width: 25rem;
+  width: 28rem;
   min-width: 260px;
   height: 14rem;
   display: flex;
   border-radius: 2rem;
   justify-content: space-around;
-  background-color: rgb(250, 213, 4);
+  background-color: rgb(238, 204, 9);
   margin-top: 1rem;
   margin-bottom: 1rem;
-  box-shadow:   12px 12px 17px rgb(15, 17, 24),  -12px -12px 17px rgb(15, 17, 24);
+  box-shadow:   12px 12px 17px rgb(247, 247, 248),  -12px -12px 17px rgb(247, 247, 248);
 }
 .mtn{
   margin-top: 13rem;
 }
 
 .tigo{
-  width: 25rem;
+  width: 28rem;
   min-width: 260px;
   height: 14rem;
   justify-content: space-around;
   display: flex;
   border-radius: 2rem;
-  background: blue;
+  background: rgb(6, 6, 235);
   margin-top: 1rem;
   margin-bottom: 1rem;
-  box-shadow:   12px 12px 17px rgb(15, 17, 24), -12px -12px 17px rgb(15, 17, 24);
+  box-shadow:   12px 12px 17px rgb(247, 247, 248), -12px -12px 17px rgb(247, 247, 248);
 
 }
 .tigo{
@@ -238,7 +238,7 @@ nav{
 }
 
 .telecel{
-  width: 25rem;
+  width: 28rem;
   min-width: 260px;
   height: 14rem;
   display: flex;
@@ -246,8 +246,8 @@ nav{
   margin-top: 1rem;
   justify-content: center;
   margin-bottom: 1rem;
-  background: rgb(255, 0, 0);
-   box-shadow:   12px 12px 17px rgb(15, 17, 24),  -12px -12px 17px rgb(15, 17, 24);
+  background: rgb(236, 6, 6);
+   box-shadow:   12px 12px 17px rgb(247, 247, 248),  -12px -12px 17px rgb(247, 247, 248);
 }
 
 .telecel{
@@ -260,15 +260,14 @@ nav{
   width: 21rem;
   height: 10rem;
   display: flex;
-  background: black;
   margin-top: 2rem;
-    border-radius: 0.4rem;
+  border-radius: 0.4rem;
+  rotate: -0.4deg;
 }
 .te-network{
   width: 21rem;
   height: 10rem;
   display: flex;
-  background: black;
   margin-top: 2rem;
     border-radius: 0.4rem;
 }
