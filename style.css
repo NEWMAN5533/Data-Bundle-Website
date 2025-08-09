@@ -71,7 +71,7 @@ nav{
 
 .chat a{
   font-size: 0.9rem;
-  color: rgb(9, 216, 206);
+  color: rgb(18, 228, 112);
   font-weight: bold;
   text-decoration: none;
   align-items: center;
@@ -120,14 +120,6 @@ nav{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2), -10px -10px 20px rgba(8, 6, 6, 0.8);
   }
 }
-
-
-
-
-
-
-
-
 
 
 .right-items{
@@ -202,7 +194,7 @@ nav{
 .hero-inside h1{
   font-size: 1.4rem;
   align-items: center;
-  color: rgb(47, 192, 156);
+  color: rgb(18, 228, 112);
   text-align: center;
 
 }
