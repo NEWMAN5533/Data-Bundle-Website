@@ -273,7 +273,7 @@ nav{
 }
 
 .clock h3{
-  color: rgb(12, 186, 255);
+  color: rgb(228, 32, 18);
   display: flex;
   font-size: 2rem;
   align-items: center;
@@ -379,7 +379,7 @@ li:nth-child(3),
 li:nth-child(6),
 li:nth-child(9),
 li:nth-child(12) {
-  color: rgb(12, 223, 238);
+  color: rgb(228, 32, 18);
   font-size: 2rem;
   font-weight: bold;
 }
