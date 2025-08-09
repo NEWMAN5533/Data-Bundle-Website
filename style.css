@@ -219,7 +219,7 @@ nav{
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  background: rgb(212, 199, 199);
+  background: #ffffff;
 
 }
 
@@ -246,7 +246,7 @@ nav{
   margin-left: -2rem;
   margin-bottom: 10rem;
   border-radius: 50%;
-  border: 20px solid #ffffff;
+  border: 20px solid  rgb(9, 216, 206);
   border-top: 20px solid  #332c80 ;
   animation: spin 60s linear infinite;
 }
@@ -272,7 +272,7 @@ nav{
     box-shadow: inset 2px 2px 30px #cfcccc, inset -8px 30px #ece9e9;
 }
 
-.clock h2{
+.clock h3{
   color: rgb(12, 186, 255);
   display: flex;
   font-size: 2rem;
