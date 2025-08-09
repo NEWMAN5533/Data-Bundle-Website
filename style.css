@@ -207,7 +207,7 @@ nav{
 }
 /*---networks container--*/
 .mtn{
-  width: 28rem;
+  width: 27rem;
   min-width: 260px;
   height: 14rem;
   display: flex;
@@ -222,7 +222,7 @@ nav{
 }
 
 .tigo{
-  width: 28rem;
+  width: 27rem;
   min-width: 260px;
   height: 14rem;
   justify-content: space-around;
@@ -239,7 +239,7 @@ nav{
 }
 
 .telecel{
-  width: 28rem;
+  width: 27rem;
   min-width: 260px;
   height: 14rem;
   display: flex;
@@ -258,7 +258,7 @@ nav{
 /*---inside the containers---*/
 
 .net-image{
-  width: 23rem;
+  width: 22rem;
   height: 10rem;
   display: flex;
   margin-top: 2rem;
@@ -450,23 +450,19 @@ transition: 0.2s;
 /* ABOUT & FOOTER */
 .about,
 footer {
+  width: 10vw;
   text-align: center;
   padding: 1rem;
   color: white;
   background-color:  rgb(15, 17, 24) ;
 }
 .about{
+  width: 100vw;
   display: flex;
   flex-direction: column;
   text-align: center;
-  border-end-end-radius: 2rem;
-  border-end-start-radius: 2rem;
-  margin-bottom: 1rem;
 }
-footer{
-  border-start-end-radius: 2rem;
-  border-start-start-radius: 2rem;
-}
+
 
 .about h3{
   font-size: 2rem;
