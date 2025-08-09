@@ -134,8 +134,8 @@ nav{
   position: fixed;
   align-items: center;
   justify-content: center;
-  border-end-end-radius: 2.4rem;
-  border-end-start-radius: 2.4rem;
+  border-end-end-radius: 2rem;
+  border-end-start-radius: 2rem;
   align-items: center;
   overflow: hidden;
   margin-top: 4rem;
@@ -144,7 +144,7 @@ nav{
 }
 .darker{
   width: 100%;
-  height: 3.6rem;
+  height: 3.2rem;
   background-color: rgb(9, 216, 206);
   border-end-start-radius: 2rem;
   border-end-end-radius: 2rem;
