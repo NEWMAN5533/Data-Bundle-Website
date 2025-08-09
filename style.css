@@ -771,6 +771,9 @@ input[readonly] {
   .btn-submit {
     width: 80%;
   }
+    .footer,.about{
+    width: 100vw;
+  }
 }
 
 @media (max-width: 480px) {
@@ -780,5 +783,14 @@ input[readonly] {
   }
   .label-container {
     width: 95%;
+  }
+  .footer,.about{
+    width: 100vw;
+  }
+}
+
+@media (min-width: 200px) {
+    .footer,.about{
+    width: 100vw;
   }
 }
