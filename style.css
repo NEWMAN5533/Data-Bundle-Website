@@ -396,9 +396,10 @@ button:hover{
   flex-direction: column;
   border-radius: 0.2rem;
   align-items: center;
-   border: 0.2rem solid #313436;
-  box-shadow:  2px 2px 30px #ffffff, -8px -8px 30px #ece9e9;
+  border: 0.2rem solid #313436;
+  box-shadow:  2px 2px 30px #cfcccc, -8px -8px 30px #ece9e9;
   transition: 1s;
+  z-index: 10;
 }
 .more-icon.active{
   right: 2%;
