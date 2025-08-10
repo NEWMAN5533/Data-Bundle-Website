@@ -1056,7 +1056,7 @@ input[readonly] {
 }
 input[readonly] {
   pointer-events: none;
-  width: 16rem;
+  width: 18rem;
   background-color: #15151d;
   font-size: 2.3rem;
   border: 1px solid  rgb(93, 93, 104);
