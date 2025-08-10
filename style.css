@@ -228,22 +228,8 @@ position: absolute;
   object-fit: cover; /* makes sure it fills nicely */
 }
 
-.hero-text {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  margin-top: 34rem;
-  text-align: center;
-}
 
-.hero-text h4 {
-color:  whitesmoke;
-font-weight: bold;
-font-family: Arial;
-font-size: 2rem
-;
-}
+
 .working-hours {
  position: relative;
   z-index: 2; /* ensures text is above the video */
