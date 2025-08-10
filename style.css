@@ -207,9 +207,11 @@ nav{
   overflow: hidden;
   border-end-end-radius: 4rem;
   border-end-start-radius: 4rem;
+  border: 3px solid rgb(29, 26, 26);
   align-items: center;
   display: flex;
   justify-content: center;
+  box-shadow: inset 2px 2px 5px rgb(3, 3, 3), inset -2px 5px rgb(22, 20, 20);
 }
 
 /* -----WORKING HOURS ------*/
