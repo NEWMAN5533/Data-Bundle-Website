@@ -947,7 +947,7 @@ border-radius: 4px;
 /* Inner content box */
 .inner-container {
   width: 44rem;
-  max-width: 60%;
+  max-width: 70%;
   border-radius: 1rem;
   height: auto;
   max-height: 90%;
@@ -973,7 +973,7 @@ input[readonly] {
 
 /* Heading */
 .cont-h2 {
-  width: 26rem;
+  width: 24rem;
   height: 10rem;
   background: #282631;
   display: flex;
@@ -999,8 +999,8 @@ input[readonly] {
 }
 .in-note{
   display: flex;
-  width: 28rem;
-  height: 14rem;
+  width: 26rem;
+  height: 12rem;
   align-items: center;
   flex-direction: column;
   align-items: center;
@@ -1049,8 +1049,8 @@ input[readonly] {
 
 /* Label container */
 .label-container {
-  width: 28rem;
-  height: 50%;
+  width: 26rem;
+  height: 48%;
   overflow-y: auto;
   background: #292631;
   display: flex;
@@ -1065,7 +1065,7 @@ input[readonly] {
 }
 input[readonly] {
   pointer-events: none;
-  width: 18rem;
+  width: 16rem;
   background-color: #15151d;
   font-size: 2.3rem;
   border: 1px solid  rgb(93, 93, 104);
@@ -1111,8 +1111,8 @@ input[readonly] {
 /* Submit button */
 .btn-submit {
   display: flex;
-  width: 15rem;
-  height: 7rem;
+  width: 13rem;
+  height: 5rem;
   background-color: rgb(207, 204, 29);
   border-radius: 1rem;
   margin-top: 2rem;
@@ -1141,15 +1141,13 @@ input[readonly] {
 
 @media (max-width: 768px) {
   .inner-container {
-    width: 90%;
+    width: 70%;
     height: auto;
   }
   .label-container {
     width: 90%;
   }
-  .btn-submit {
-    width: 80%;
-  }
+ 
     .footer,.about{
     width: 100%;
   }
@@ -1157,11 +1155,11 @@ input[readonly] {
 
 @media (max-width: 480px) {
   .inner-container {
-    width: 95%;
-    height: 90%;
+    width: 50%;
+    height: 600%;
   }
   .label-container {
-    width: 95%;
+    width: 50%;
   }
   .footer,.about{
     width: 100%;
