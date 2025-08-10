@@ -228,11 +228,26 @@ position: absolute;
   object-fit: cover; /* makes sure it fills nicely */
 }
 
+.hero-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  margin-top: 34rem;
+  text-align: center;
+}
 
+.hero-text h4 {
+color:  whitesmoke;
+font-weight: bold;
+font-family: Arial;
+font-size: 2rem
+;
+}
 .working-hours {
  position: relative;
   z-index: 2; /* ensures text is above the video */
-  color: white;
+  color:  rgb(7, 8, 7);
   text-align: center;
   padding: 2rem;
   height: 100%;
@@ -255,10 +270,10 @@ position: absolute;
   font-family: sans-serif;
   border: 20px solid rgb(15, 17, 24);
   position: absolute;
-    box-shadow: inset 2px 2px 30px #cfcccc, inset -8px 30px #ece9e9;
+  box-shadow: inset 2px 2px 30px #cfcccc, inset -8px 30px #ece9e9;
   display: flex;
   align-self: center;
-  margin-top: 50%;
+  margin-top: 30%;
   margin-left: 50%;
   top: 13rem;
   z-index: 10;
@@ -801,20 +816,13 @@ section footer .bar{
   display: flex;
 width: 2rem;
 height: 2rem;
-animation: jump 1s infinite;
+animation: jump 1s infinite ease-in-out;
 }
 
 @keyframes jump {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-10px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-  
+ 0% {
+  transform: rotateY('90deg 10%');
+ }
 }
 
 
@@ -863,8 +871,8 @@ label, select, input {
 }
 label{
  align-items: center;
- font-size: 1.8rem;
- color: rgb(48, 19, 128);
+ font-size: 2rem;
+ color: rgb(254, 253, 255);
 }
 
 input, select{
@@ -875,11 +883,11 @@ input, select{
   justify-content: center;
 border-radius: 0.3rem;
 font-size: 1rem;
-border: 1px solid rgb(236, 234, 234);
+border: 1px solid ;
 outline: none;
-background:  #ececce;
+background:  #171325;
 border-radius: 4px;
- box-shadow:   12px 12px 17px #c7c4c4,  -12px -12px 17px #ffffff;
+
 }
 
 
@@ -903,14 +911,32 @@ border-radius: 4px;
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: rgba(0, 0, 0, 0.6); /* Overlay */
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s ease, visibility 0.3s ease;
   z-index: 9999;
 }
+
+.bg-wrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 2rem;
+  width: 36rem;
+  background-color:  #282631;;
+  margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
 
 /* When active (modal visible) */
 .template-container.active {
@@ -920,19 +946,18 @@ border-radius: 4px;
 
 /* Inner content box */
 .inner-container {
-  width: 48rem;
-  max-width: 95%;
+  width: 44rem;
+  max-width: 60%;
+  border-radius: 1rem;
   height: auto;
   max-height: 90%;
-  background: #ececce;
+  background: #4f32c5;
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-radius: 0.5rem;
   padding: 1rem;
   margin-bottom: 1rem;
   position: relative;
-  box-shadow: 12px 12px 17px #5e5e59, -12px -12px 17px #52524e;
   overflow-y: auto;
 }
 
@@ -942,61 +967,71 @@ border-radius: 4px;
 
 input[readonly] {
   pointer-events: none;
-  background-color: #ececec;
+  background-color: #171325;
 }
 
 
 /* Heading */
 .cont-h2 {
-  width: 100%;
-  height: 8rem;
-  background: #ececec;
+  width: 26rem;
+  height: 10rem;
+  background: #282631;
   display: flex;
+  padding: 1rem;
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-bottom-left-radius: 6rem;
-  border-bottom-right-radius: 6rem;
-  color: rgb(25, 62, 133);
+  color: rgb(255, 255, 255);
   flex-direction: column;
-  box-shadow: inset 12px 12px 17px #c7c4c4, inset -12px -12px 17px #fff;
+  margin-top: 2rem;
+  
 }
 .cont-h2 p {
   font-size: 1.8rem;
-  color: rgb(192, 36, 36);
+  color: rgb(255, 255, 255);
+  margin-top: 0.5rem;
   
 }
 .inner-container h3{
   font-size: 1.2rem;
-  color:  rgb(25, 62, 133);
+  color:  rgb(252, 253, 255);
   margin-bottom: 0rem;
 }
 .in-note{
   display: flex;
+  width: 28rem;
+  height: 14rem;
   align-items: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
   background: none;
+  justify-content: center;
   margin-top: 1.4rem;
   gap: 5px;
-  border: 1px solid #bb3f3f;
+  border: 1px solid rgb(93, 93, 104);
   border-radius: 1rem;
-  word-spacing: 0.8px;
+  word-spacing: 2px;
   padding: 4px;
-  color: black;
+  color: rgb(255, 255, 255);
 
+}
+.in-note h3{
+  font-size: 1.6rem;
+  font-weight: bold;
 }
 
 .in-note h4{
-  width: 8px;
-  height: 8px;
-  margin-bottom: 2px;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 8px;
   border-radius: 50px;
-  color:rgb(238, 18, 18);
+  color: rgb(235, 231, 17);
+  font-size: 2rem;
 }
 .in-note p{
-  color: rgb(218, 28, 28);
+  color: rgb(235, 231, 17);
+  font-size: 1.4rem;
 }
 
 
@@ -1014,27 +1049,61 @@ input[readonly] {
 
 /* Label container */
 .label-container {
-  width: 30rem;
-  height: 70%;
+  width: 28rem;
+  height: 50%;
   overflow-y: auto;
-  background: #e4e4e4;
+  background: #292631;
   display: flex;
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   flex-direction: column;
+  border-radius: 1.4rem;
   align-items: center;
-  box-shadow: inset 12px 12px 17px #c7c4c4, inset -12px -12px 17px #fff;
+  justify-content: center;
+  border: 1px solid rgb(93, 93, 104);
+  
 }
 input[readonly] {
   pointer-events: none;
-  background-color: #ececec;
-  border: 1px solid #ccc; /* Ensures no red underline */
-  box-shadow:  12px 12px 17px #c7c4c4,  -12px -12px 17px #fff;
-  color: #333;
+  width: 18rem;
+  background-color: #15151d;
+  font-size: 2.3rem;
+  border: 1px solid  rgb(93, 93, 104);
+  align-items: center;
+  color: white; /* Ensures no red underline */
+
 }
 
-.number{
-   box-shadow:  12px 12px 17px #e0e0d1,  -12px -12px 17px #e0e0d1;
+.enter-number {
+  display: flex;
+  padding-top: 1rem;
+  margin-top: 2rem;
+  border: 1px solid  rgb(93, 93, 104);
+  flex-direction: column;
+  align-items: center;
+  width: 26rem;
+  border-radius: 1rem;
+  font-size: 2.3rem;
 }
+
+.enter-number input {
+  font-size: 2rem;
+  color: white;
+  width: 20rem;
+  border: 1px solid  rgb(93, 93, 104);
+  background-color:  #292631;
+}
+
+
+
+.enter-number input::placeholder{
+  color: white;
+  font-size: 2rem;
+  background-color:  transparent;
+  align-items: center;
+}
+
+
 
 
 
@@ -1042,25 +1111,22 @@ input[readonly] {
 /* Submit button */
 .btn-submit {
   display: flex;
-  width: 14rem;
-  height: 4.2rem;
-  border-radius: 4rem;
-  margin-top: 1rem;
-  background-color: #ececec;
-  font-family: Arial, sans-serif;
-  font-size: 1.8rem;
-  color: rgb(25, 62, 133);
+  width: 15rem;
+  height: 7rem;
+  background-color: rgb(207, 204, 29);
+  border-radius: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: Arial;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
   border: none;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  box-shadow: 12px 12px 17px #c7c4c4, -12px -12px 17px #f7f5f5;
+
 }
 
-.btn-submit:hover {
-  background-color: #ececec;
-  color: black;
-}
 
 
 
