@@ -246,7 +246,7 @@ nav{
   position: absolute;
     box-shadow: inset 2px 2px 30px #cfcccc, inset -8px 30px #ece9e9;
   display: flex;
-  margin-top: 12rem;
+  margin-top: 8rem;
   z-index: 10;
 
 }
