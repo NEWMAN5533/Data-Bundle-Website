@@ -205,6 +205,8 @@ nav{
   position: relative;
   height: 38rem; /* Set container height */
   overflow: hidden;
+  border-end-end-radius: 4rem;
+  border-end-start-radius: 4rem;
   align-items: center;
   display: flex;
   justify-content: center;
