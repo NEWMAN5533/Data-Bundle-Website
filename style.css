@@ -205,11 +205,13 @@ nav{
   position: relative;
   height: 38rem; /* Set container height */
   overflow: hidden;
-  border-radius: 10px; /* optional */
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* -----WORKING HOURS ------*/
- .video-container video {
+.video-container video {
 position: absolute;
   top: 50%;
   left: 50%;
@@ -229,7 +231,6 @@ position: absolute;
   color: white;
   text-align: center;
   padding: 2rem;
-  background: rgba(0, 0, 0, 0.3); /* optional overlay */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -252,7 +253,10 @@ position: absolute;
   position: absolute;
     box-shadow: inset 2px 2px 30px #cfcccc, inset -8px 30px #ece9e9;
   display: flex;
-  margin-top: 5rem;
+  align-self: center;
+  margin-top: 50%;
+  margin-left: 50%;
+  top: 13rem;
   z-index: 10;
 
 }
