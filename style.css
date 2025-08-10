@@ -201,17 +201,22 @@ nav{
 
 
 /*---BACKGROUND VIDEO FOR HERO SECTION----*/
-
+.video-container {
+  position: relative;
+  height: 38rem; /* Set container height */
+  overflow: hidden;
+  border-radius: 10px; /* optional */
+}
 
 /* -----WORKING HOURS ------*/
-.video-container video {
-    position: absolute;
+ .video-container video {
+position: absolute;
   top: 50%;
   left: 50%;
   min-width: 100%;
-  max-height: 30rem;
-  width: 100vw;
-  height: 35rem;
+  min-height: 100%;
+  width: auto;
+  height: auto;
   transform: translate(-50%, -50%);
   z-index: 0;
   object-fit: cover; /* makes sure it fills nicely */
@@ -219,20 +224,21 @@ nav{
 
 
 .working-hours {
-  width: 100vw;
-  height: 36rem;
+ position: relative;
+  z-index: 2; /* ensures text is above the video */
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.3); /* optional overlay */
+  height: 100%;
   display: flex;
-  padding: 1rem 2rem;
-  overflow: hidden;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  background: #4d4141;
-  z-index: 2;
-}
 
-.working-hours video {
-  width: 100vw;
-  height: 40rem;
+
+
+
+
 }
 
 
@@ -246,7 +252,7 @@ nav{
   position: absolute;
     box-shadow: inset 2px 2px 30px #cfcccc, inset -8px 30px #ece9e9;
   display: flex;
-  margin-top: 8rem;
+  margin-top: 5rem;
   z-index: 10;
 
 }
