@@ -45,7 +45,18 @@ function setDate() {
   time.innerHTML = `<span></strong>${hour}</strong> : ${minute} : <small>${second}</small></span>`
 }
 
-setInterval(setDate, 1000)
+setInterval(setDate, 1000);
+
+
+// TO REGISTER THE SERVICE WORKER (service.js) //
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/service_worker.js").then(reg =>
+      console.log("Service Worker Registered:", reg)
+    ).catch(err => console.log("Service Worker registration failed:", err));
+  });
+}
 
 
 
