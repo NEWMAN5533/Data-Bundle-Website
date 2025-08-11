@@ -156,6 +156,11 @@ nav{
   margin-top: 4rem;
   z-index: 1000;
 }
+
+
+
+
+
 .darker{
   width: 100%;
   height: 2.2rem;
@@ -692,54 +697,6 @@ button:hover{
 
 
 
-.more-icon{
-  width: 5rem;
-  height: 16rem;
-  background: rgb(255, 255, 255);
-  margin-top: 12rem;
-  right: -91%;
-  position: fixed;
-  justify-content: center;
-  margin-bottom: 1rem;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  border-radius: 0.2rem;
-  align-items: center;
-  border: 0.2rem solid #313436;
-  box-shadow:  2px 2px 30px #cfcccc, -8px -8px 30px #ece9e9;
-  transition: 1s;
-  z-index: 10;
-}
-.more-icon.active{
-  right: 2%;
-}
-
-
-ul li{
-  text-decoration: none;
-  list-style: none;
-}
-
-
-
-.more-icon img{
-width: 2.6rem;
-height: 2.6rem;
-border-radius: 50%;
-align-items: center;
-margin-bottom: 1.1rem;
-margin-top: 1.1rem;
-padding: 0;
-transition: 0.5s;
-margin-left: 1rem;
-transition: 0.2s;
-}
-
-.more-icon img:hover{
-  width: 2.8rem;
-  height: 2.8rem;
-}
 
 .works{
   width: 8rem;

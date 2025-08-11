@@ -1,5 +1,4 @@
-const more = document.querySelector('.more-icon');
-const pageWhitcher = document.querySelector('#more');
+
 
 const buyButtons = document.querySelectorAll('.buy-btn');
 const templateContainer = document.querySelector('.template-container');
@@ -46,39 +45,6 @@ function setDate() {
 }
 
 setInterval(setDate, 1000);
-
-
-// TO REGISTER THE SERVICE WORKER (service.js) //
-
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("/service_worker.js").then(reg =>
-      console.log("Service Worker Registered:", reg)
-    ).catch(err => console.log("Service Worker registration failed:", err));
-  });
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -168,6 +134,15 @@ function submitRequest() {
 
 
 
+// TO REGISTER THE SERVICE WORKER (service.js) //
+
+if ("service_Worker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("/service_worker.js").then(reg =>
+      console.log("Service Worker Registered:", reg)
+    ).catch(err => console.log("Service Worker registration failed:", err));
+  });
+}
 
 
 
