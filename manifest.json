@@ -1,0 +1,54 @@
+{
+  "name": "EcoData",
+  "short_name": "EcoData",
+  "description": "All networks Data Bundle Website",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background": "#ffffff",
+  "theme_color": "#0a0a0a",
+  "icons": [
+    {
+      "scr": "scr/icons/icon-72.png",
+      "sizes": "72*72",
+      "type": "image/png"
+
+    },
+    {
+      "scr": "scr/icons/icon-96.png",
+      "sizes": "96*96",
+      "type": "image/png"
+
+    },
+    {
+      "scr": "scr/icons/icon-128.png",
+      "sizes": "128*128",
+      "type": "image/png"
+
+    },
+
+    {
+      "scr": "scr/icons/icon-144.png",
+      "sizes": "144*144",
+      "type": "image/png"
+
+    },
+    {
+      "scr": "scr/icons/icon-152.png",
+      "sizes": "152*152",
+      "type": "image/png"
+
+    },
+    {
+      "scr": "scr/icons/icon-500.png",
+      "sizes": "500*500",
+      "type": "image/png"
+
+    },
+    {
+      "scr": "scr/icons/icon-566.png",
+      "sizes": "566*566",
+      "type": "image/png"
+
+    }
+  ]
+}
