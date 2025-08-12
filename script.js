@@ -101,10 +101,7 @@ function dataSubmit() {
   }, 2000);
 }
 
-// MORE ICON TOGGLE
-pageWhitcher.addEventListener('click', () => {
-  more.classList.toggle('active');
-});
+
 
 // SUBMITTING REQUEST THROUGH WHATSAPP
 function submitRequest() {
