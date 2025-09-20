@@ -99,7 +99,7 @@ SIDEBAR
   gap: 1.5rem;
   height: 100vh;
   width: 250px;
-  background-color: var(--background-cl);
+  background-color: var(--background-cl: #e6e8ce);
   margin-top: 2.8rem;
   overflow-y: auto; 
   transition: left 0.3s ease-in-out;
@@ -951,4 +951,5 @@ input[readonly] {
     .footer,.about{
     width: 100%;
   }
+
 }
