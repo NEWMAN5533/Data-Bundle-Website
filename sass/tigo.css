@@ -95,7 +95,7 @@ SIDEBAR
   flex-direction: column;
   position: fixed; 
   top: 0;
-  left: -220px;
+  left: -500px;
   gap: 1.5rem;
   height: 100vh;
   width: 230px;
