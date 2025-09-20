@@ -98,7 +98,7 @@ SIDEBAR
   left: -220px;
   gap: 1.5rem;
   height: 100vh;
-  width: 220px;
+  width: 240px;
   background-color: var(--background-cl);
   margin-top: 2.8rem;
   overflow-y: auto; 
