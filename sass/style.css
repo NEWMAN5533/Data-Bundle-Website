@@ -946,6 +946,7 @@ input[readonly] {
   }
   .footer,.about{
     width: 100%;
+    max-widht: 480px;
   }
 }
 
@@ -955,3 +956,4 @@ input[readonly] {
   }
 
 }
+
