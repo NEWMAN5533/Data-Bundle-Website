@@ -9,7 +9,7 @@
     <meta name="title" content="EcoData">
   <meta name="description" content="This is related to website developed by IlysCode">
 
-  <link rel="shortcut icon" href="./images/ecodata-bg1.png" type="image/png">
+  <link rel="shortcut icon" href="./images/ecodata-bg1.png" type="image/jpg">
   <link rel="stylesheet" href="./sass/style.css">
 </head>
 <body>
@@ -25,6 +25,8 @@
   </div>
 </div>
 </nav>
+
+
 
 <!-------SIDEBAR----->
 <div class="sidebar">
@@ -81,6 +83,49 @@
 
 
   </div>
+
+<!------APP DEVELOPMENT--TIMING------>
+<div class="develop-container">
+  <h2>Our App Development Will Be <br> Done at the Given Date</h2>
+  <div class="dev-left">
+    <div class="timer">
+
+      <div class="box">
+        <span id="days">31
+        <small>Days</small>
+      </span>
+      <small>Days</small>
+      </div>
+      <h3>:</h3>
+
+
+      <div class="box">
+        <span id="hours">22
+        <small>Hours</small>
+      </span>
+      <small>Hours</small>
+      </div>
+      <h3>:</h3>
+
+      <div class="box">
+        <span id="minutes">40
+      </span>
+      <small>Minutes</small>
+      </div>
+      <h3>:</h3>
+
+      <div class="box">
+        <span id="seconds">59</span>
+        <small>Seconds</small>
+        </div>
+    </div>
+  </div>
+  <div class="dev-right"></div>
+</div>
+
+
+
+
 <div class="container-price">
 
   <div class="mtn mtn-banner">
@@ -530,13 +575,13 @@
       <div class="bottom">
         <h2>20GB</h2>
         <p>GH&#8373;: 93</p>
-         <button class="buy-btn" data-bundle="TELECEL 20GB" data-price="93">Buy Now</button>
+        <button class="buy-btn" data-bundle="TELECEL 20GB" data-price="93">Buy Now</button>
       </div>
     </div>
  
 
 
-     <div class="product">
+    <div class="product">
       <div class="top">
         <img src="images/telecel.jpg" alt="image">
       </div>
@@ -549,21 +594,21 @@
  
 
 
-     <div class="product">
+    <div class="product">
       <div class="top">
         <img src="images/telecel.jpg" alt="image">
       </div>
       <div class="bottom">
         <h2>40GB</h2>
         <p>GH&#8373;: 178</p>
-         <button class="buy-btn" data-bundle="TELECEL 40GB" data-price="178">Buy Now</button>
+        <button class="buy-btn" data-bundle="TELECEL 40GB" data-price="178">Buy Now</button>
       </div>
     </div>
  
 
 
 
-     <div class="product">
+    <div class="product">
       <div class="top">
         <img src="images/telecel.jpg" alt="image">
       </div>
@@ -573,10 +618,10 @@
         <button class="buy-btn" data-bundle="TELECEL 50GB" data-price="220">Buy Now</button>
       </div>
     </div>
- 
 
 
-     <div class="product">
+
+    <div class="product">
       <div class="top">
         <img src="images/telecel.jpg" alt="image">
       </div>
@@ -586,15 +631,6 @@
         <button class="buy-btn" data-bundle="TELECEL 100GB" data-price="400">Buy Now</button>
       </div>
     </div>
- 
-
-    
-  
- 
- 
-
-
-    
 
 
 </div>
@@ -678,6 +714,42 @@
 
 
 <script src="./sass/script.js"></script>
-</body>
 
+<script>
+  let devEndTime = new Date(" oct 24, 2025 23:59:59").getTime();
+
+  function updateTime(){
+    let now = new Date().getTime();
+    let distance = devEndTime - now;
+
+    if (distance < 0){
+      document.querySelector(".timer").innerHTML = "App is Ready";
+      return;
+    }
+
+
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+
+    let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+
+    let minutes = Math.floor((distance
+    % (1000 * 60 * 60)) / (1000 * 60));
+
+    let seconds = Math.floor((distance % (1000 * 60)) /(1000));
+
+    document.getElementById("days").innerHTML = days;
+
+    document.getElementById("hours").innerHTML = hours;
+
+    document.getElementById("minutes").innerHTML = minutes;
+
+    document.getElementById("seconds").innerHTML = seconds;
+  }
+
+  updateTime();
+  setInterval(updateTime, 1000);
+
+
+</script>
+</body>
 </html>
